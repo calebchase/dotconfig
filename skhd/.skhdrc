@@ -1,0 +1,19 @@
+# swap windows
+ctrl + alt - k : yabai -m window --warp north
+ctrl + alt - l : yabai -m window --warp east
+ctrl + alt - j : yabai -m window --warp south
+ctrl + alt - h : yabai -m window --warp west
+
+# bring focused window to 1st
+alt - c : yabai -m window --swap first
+
+alt - x : yabai -m space --mirror y-axis
+
+# navigation for window focus
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# screen sizes normalize
+ctrl - 0 : yabai -m space --balance
