@@ -1,0 +1,9 @@
+
+
+{
+    "python.jediPath": "/usr/local/lib/python3.7/site-packages",
+    "tsserver.npm": "/usr/local/bin/npm",
+    "coc.preferences.formatOnType": true,
+    "clangd.path": "/Users/calebchase/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+    "java.format.onType.enabled": false
+}
