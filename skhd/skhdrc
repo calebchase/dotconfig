@@ -4,6 +4,8 @@ ctrl + alt - l : yabai -m window --warp east
 ctrl + alt - j : yabai -m window --warp south
 ctrl + alt - h : yabai -m window --warp west
 
+alt - b : yabai -m window --toggle border
+
 # bring focused window to 1st
 alt - c : yabai -m window --swap first
 
@@ -23,3 +25,4 @@ shift + cmd - a : yabai -m window --resize left:-20:0 || yabai -m window --resiz
 shift + cmd - s : yabai -m window --resize top:0:20 || yabai -m window --resize bottom:0:20 
 shift + cmd - d : yabai -m window --resize right:20:0 || yabai -m window --resize left:20:0
 shift + cmd - w : yabai -m window --resize bottom:0:-20 || yabai -m window --resize top:0:-20
+
