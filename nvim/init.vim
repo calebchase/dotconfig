@@ -12,7 +12,7 @@ colorscheme Nord
 
 let g:chadtree_settings = {"theme.text_colour_set": "nord"} 
 
-nnoremap <Space>j <cmd>CHADopen<cr>
+nnoremap <Space>c <cmd>CHADopen<cr>
 "nnoremap <leader>t <cmd>CHADopen --always-focus<cr>
 "nnoremap <leader>g <cmd>CHADopen --always-focus<cr> <bar> <cmd>CHADopen --nofocus<cr>
 
