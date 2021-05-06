@@ -1,11 +1,10 @@
 call plug#begin()
-
 "Plug 'kevinoid/vim-jsonc'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
-
+Plug 'psliwka/vim-smoothie'
 call plug#end()
 
 colorscheme Nord
@@ -15,6 +14,9 @@ let g:chadtree_settings = {"theme.text_colour_set": "nord"}
 nnoremap <Space>c <cmd>CHADopen<cr>
 "nnoremap <leader>t <cmd>CHADopen --always-focus<cr>
 "nnoremap <leader>g <cmd>CHADopen --always-focus<cr> <bar> <cmd>CHADopen --nofocus<cr>
+
+"Toggle spell check
+nnoremap <Space>s <cmd>set spell! spelllang=en_us<cr>
 
 let g:lightline = {
       \ 'colorscheme': 'nord',
