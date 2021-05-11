@@ -1,10 +1,10 @@
 call plug#begin()
-"Plug 'kevinoid/vim-jsonc'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
 Plug 'psliwka/vim-smoothie'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 colorscheme Nord
